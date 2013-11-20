@@ -1,0 +1,18 @@
+color molokai
+set guifont=Monaco:h12
+set linespace=2
+set antialias
+
+" Don't beep
+set visualbell
+
+set guioptions-=T   " No toolbar
+set guioptions-=r   " No scrollbars
+
+if has("gui_macvim")
+  " Fullscreen takes up entire screen
+  set fuoptions=maxhorz,maxvert
+
+  " Command-Return for fullscreen
+  macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
+end
