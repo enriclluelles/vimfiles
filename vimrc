@@ -141,6 +141,12 @@ nmap <Leader>as :%s/\s/  /\| Tabularize multiple_spaces<CR>\| :nohl<CR>
 nmap <Leader>a<Space> :Tabularize multiple_spaces<CR>
 vmap <Leader>a<Space> :Tabularize multiple_spaces<CR>
 
+"use commentary mappings
+xmap \\  <Plug>Commentary
+nmap \\  <Plug>Commentary
+nmap \\\ <Plug>CommentaryLine
+nmap \\u <Plug>CommentaryUndo
+
 "ruby debugger
 let g:ruby_debugger_default_script = 'rails s'
 let g:ruby_debugger_no_maps = 1
