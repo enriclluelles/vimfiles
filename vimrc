@@ -129,6 +129,9 @@ let g:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']
 let g:SuperTabContextDiscoverDiscovery =
       \ ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
 
+" syntastic
+let g:syntastic_mode_map = { 'mode': 'passive' }
+
 "use ag instead of ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
