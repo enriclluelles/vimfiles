@@ -13,8 +13,9 @@ set encoding=utf-8
 call pathogen#infect()
 filetype plugin indent on
 
-set background=dark
-color molokai
+set background=light
+colorscheme solarized
+
 set relativenumber
 set ruler       " show the cursor position all the time
 set cursorline
