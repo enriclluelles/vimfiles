@@ -198,6 +198,3 @@ set undodir=~/.vim/_undo        " undo
 set undofile
 
 set laststatus=2
-let g:airline_theme="dark"
-let g:airline_detect_modified=1
-let g:airline_powerline_fonts = 1
