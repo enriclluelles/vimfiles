@@ -151,22 +151,6 @@ nmap \\  <Plug>Commentary
 nmap \\\ <Plug>CommentaryLine
 nmap \\u <Plug>CommentaryUndo
 
-"ruby debugger
-let g:ruby_debugger_default_script = 'rails s'
-let g:ruby_debugger_no_maps = 1
-let g:ruby_debugger_executable = "bundle exec rdebug-vim"
-let g:ruby_debugger_debug_mode = 0
-
-map <F7>  :call g:RubyDebugger.step()<CR>
-map <F8>  :call g:RubyDebugger.next()<CR>
-map <F9>  :call g:RubyDebugger.continue()<CR>
-noremap <leader>b  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.toggle_breakpoint()<CR>
-noremap <leader>v  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.open_variables()<CR>
-noremap <leader>m  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.open_breakpoints()<CR>
-noremap <leader>s  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.open_frames()<CR>
-noremap <leader>f  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.finish()<CR>
-noremap <leader>e  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.exit()<CR>
-
 " map NERDTreeToogle
 map <Leader>n :NERDTreeToggle<CR>
 
