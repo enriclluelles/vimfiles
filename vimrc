@@ -82,6 +82,7 @@ map Q gq
 
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
+cnoremap %p <C-R>=expand('%:.')<cr>
 
 " ignore Rubinius, Sass cache files
 set wildignore+=*.rbc,*.scssc,*.sassc
