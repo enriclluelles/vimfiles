@@ -108,7 +108,7 @@ set clipboard+=unnamed
 let g:ctrlp_map = '<leader>t'
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_custom_ignore = 'node_modules\|.git\|tmp'
+let g:ctrlp_custom_ignore = 'node_modules\|\.git\|tmp'
 " let g:ctrlp_user_command = {
 "       \ 'types': {
 "       \ 1: ['.git', 'cd %s && git ls-files'],
