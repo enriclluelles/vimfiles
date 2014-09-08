@@ -49,7 +49,6 @@ set smartcase                     " ... unless they contain at least one capital
 function s:setupWrapping()
   set wrap
   set wrapmargin=2
-  set textwidth=72
 endfunction
 
 if has("autocmd")
