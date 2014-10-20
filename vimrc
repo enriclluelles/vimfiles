@@ -103,6 +103,9 @@ set foldlevel=10
 " use system clipboard
 set clipboard+=unnamed
 
+" activate rainbow parentheses
+let g:rbpt_loadcmd_toggle = 1
+
 " remap ctrlp to leader t
 let g:ctrlp_map = '<leader>t'
 let g:ctrlp_working_path_mode = 0
