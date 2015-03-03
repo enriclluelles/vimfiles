@@ -30,7 +30,7 @@
 	url = https://github.com/tpope/vim-commentary
 [submodule "bundle/molokai"]
 	path = bundle/molokai
-	url = https://github.com/mrtazz/molokai.vim
+	url = https://github.com/tomasr/molokai.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
