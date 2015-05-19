@@ -105,6 +105,8 @@ set foldlevel=10
 " use system clipboard
 set clipboard+=unnamed
 
+let g:jsx_ext_required = 0
+
 " activate rainbow parentheses
 let g:rbpt_loadcmd_toggle = 1
 
