@@ -107,6 +107,8 @@ set clipboard+=unnamed
 
 let g:jsx_ext_required = 0
 
+let g:go_fmt_command = "goimports"
+
 " activate rainbow parentheses
 let g:rbpt_loadcmd_toggle = 1
 
