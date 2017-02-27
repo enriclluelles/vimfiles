@@ -154,3 +154,6 @@
 [submodule "bundle/jsx"]
 	path = bundle/jsx
 	url = git://github.com/mxw/vim-jsx.git
+[submodule "bundle/github-theme"]
+	path = bundle/github-theme
+	url = https://github.com/albertorestifo/github.vim.git

@@ -14,7 +14,7 @@ call pathogen#infect()
 filetype plugin indent on
 
 set background=light
-colorscheme molokai
+colorscheme github
 
 set relativenumber
 set ruler       " show the cursor position all the time
